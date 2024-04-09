@@ -1,4 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+.Style{
+    background: url(../Images/wallpaper-hd-laptop.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+   
+}
+.navlist{
+    display: flex;
+    width: 50%;
+    margin: 20px 30px;
+  padding: 15px 20px;
+
+}
+#logo{
+    width: 30%;
+}
+
+#logo img{
+    border: 3px aqua;
+    border-radius: 150px;
+}
+
+#logo p{
+    text-decoration: none;
+    float:right;
+    font-size: 30px;
+    color: aqua;
+    margin: 8px 35px
+}
+#logo b{
+    color: red;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    color: rgb(0, 255, 98);
 }
