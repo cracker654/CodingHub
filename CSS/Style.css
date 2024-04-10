@@ -7,44 +7,60 @@ header {
     position: sticky;
     top: 0;
 }
-.Style{
+
+.Style {
     background: rgba(0, 0, 0, 0.7)url(../Images/wallpaper-hd-laptop.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
-.navbar{
+
+.navbar {
     display: flex;
-   
 }
-.navlist{
-    display: flex;
+
+.navlist {
     width: 50%;
-    margin: 20px 30px;
-  padding: 15px 20px;
-
+    display: flex;
+    justify-content: space-between;
 }
-#logo{
+
+#logo {
     width: 30%;
+    padding-top: 15px;
+    padding-left: 34px;
 }
 
-#logo img{
+#logo img {
     border: 3px aqua;
     border-radius: 150px;
 }
 
-#logo p{
+#logo p {
     text-decoration: none;
-    float:right;
+    float: right;
     font-size: 24px;
     color: aqua;
-    margin: 8px 52px
+    margin: 13px 93px 0px 0px;
 }
-#logo b{
+
+#logo b {
     color: red;
 }
-.navlist li{
+
+.navlist li {
     list-style: none;
+    padding-top: 35px;
 }
-.navlist li a{
+
+.navlist li a {
     color: rgb(0, 255, 98);
+    text-decoration: none;
+}
+
+.navlist li a:hover {
+    color: blueviolet;
+    background-color: #00000040;
+}
+.tuts{
+    display: none;
 }
