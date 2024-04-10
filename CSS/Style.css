@@ -40,7 +40,7 @@ header {
     float: right;
     font-size: 24px;
     color: aqua;
-    margin: 13px 93px 0px 0px;
+    margin: 5px 93px 0px 0px;
 }
 
 #logo b {
@@ -49,12 +49,13 @@ header {
 
 .navlist li {
     list-style: none;
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 .navlist li a {
     color: rgb(0, 255, 98);
     text-decoration: none;
+    font-size: 18px;
 }
 
 .navlist li a:hover {
