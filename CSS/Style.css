@@ -65,3 +65,33 @@ header {
 .tuts{
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightnav{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+}
+.search{
+    display: flex;
+}
+.login{
+    display: flex;
+}
